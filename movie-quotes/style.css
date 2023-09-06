@@ -1,0 +1,39 @@
+body{
+    background-color: black;
+}
+
+div{
+    background-color: white;
+    width: 60%;
+    padding-top: 5px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin:auto;
+    margin-top: 30px;
+}
+
+p{
+    margin-bottom: -5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-family: "Didact Gothic", sans-serif;
+}
+
+p:hover{
+    font-size: 18px;
+}
+
+div:hover{
+    box-shadow: #23b63bc2 0 0 20px 10px;
+}
+
+h1{
+    color: #23b63b;
+    padding-top: 20px;
+    width: 60%;
+    margin:auto;
+    text-align: center;
+    font-family: "Creepster", sans-serif;
+    font-size: 56px;
+}
