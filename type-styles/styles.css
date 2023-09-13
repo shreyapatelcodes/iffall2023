@@ -1,0 +1,99 @@
+html{
+    font-family: 'Crimson Text', serif;
+    font-size: 18px;
+    background-color: ghostwhite;
+}
+
+body{
+    padding-left: 1%;
+}
+
+h2{
+    font-size: 35px;
+    margin-bottom: -.5%;
+    margin-top: -.5%;
+    color: slategray;
+}
+
+.font-info{
+    padding-top: 2%;
+    margin-bottom: -2%;
+}
+
+.font-info p{
+    font-family: 'Roboto', serif;
+    font-size: 16px;
+    margin-left: 1%;
+    font-weight: bold;
+    color: lightsteelblue;
+}
+
+h3, h4{
+    font-family: 'Roboto', serif;
+    margin-bottom: -1%;
+}
+
+h3{
+    text-indent: -1rem;
+    font-size: 20px;
+    color: lightslategray;
+}
+
+h4{
+    text-indent: -.5rem;
+    font-size: 16px;
+    color: lightsteelblue;
+}
+
+.font-weight-1{
+    font-weight: bold;
+}
+
+.font-style-1{
+    font-style: italic;
+}
+
+.sample{
+    margin: 1rem;
+    padding-top: .5rem;
+}
+
+.letter-spacing-1{
+    letter-spacing: .8em;
+}
+
+.letter-spacing-2{
+    letter-spacing: -.08em;
+}
+
+.text-transform-1{
+    text-transform: capitalize;
+}
+
+.text-transform-2{
+    text-transform:lowercase;
+}
+
+.text-transform-3{
+    text-transform:uppercase;
+}
+
+.text-decoration-1{
+    text-decoration: underline solid;
+}
+
+.text-decoration-2{
+    text-decoration: underline wavy;
+}
+
+.text-decoration-3{
+    text-decoration: overline dotted;
+}
+
+.text-decoration-4{
+    text-decoration: overline dashed;
+}
+
+.text-decoration-5{
+    text-decoration:line-through double;
+}
