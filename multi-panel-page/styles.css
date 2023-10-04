@@ -1,0 +1,132 @@
+.heading{
+    background-image: url("https://wardmapsgifts.com/cdn/shop/files/world-mercator.jpg?v=1678227258");
+    padding-bottom: 30px;
+    height: 450px;
+    display: grid;
+    place-items: center;
+    text-align: center;
+    background-position: center 30%;
+    text-shadow: 1px 1px 2px #faf2e3;
+}
+h1{
+    font-size: 80px;
+    margin: 0;
+}
+h3{
+    padding-top: 0px;
+    margin: 0;
+    font-size: 30px;
+}
+
+body{
+    font-family: 'Archivo Narrow', sans-serif;
+}
+
+h2{
+    text-align: center;
+    font-size: 40px;
+    margin-top: 20px;
+    margin-bottom: 32px;
+}
+
+.text-boundry{
+    width : 959px;
+    margin: auto;
+
+}
+
+.text-boundry p{
+    font-size: 18px;
+    margin: 0;
+    padding: 0;
+    line-height: 1.4;
+}
+
+.section-1{
+    padding-bottom: 40px;
+    padding-top: 20px;
+    background-color: #faf2e3;
+}
+
+.section-1 img{
+    width: 400px;
+    height: 300px;
+    object-fit: cover;
+    float: right;
+    object-position: center;
+    display: inline;
+    margin-left: 45px;
+    margin-bottom: 30px;
+}
+
+.section-1 p{
+    padding-bottom: 16px;
+}
+
+.section-2{
+    background-color: #d6dbc3;
+    padding-top: 19px;
+    padding-bottom: 24px;
+}
+
+.section-2 img{
+    width: 200px;
+    height: 150px;
+    object-fit: cover;
+    float: left;
+    object-position: center;
+    display: inline;
+    margin-right: 12px;
+}
+
+ul div{
+    width: 425px;
+}
+
+li{
+    display: block;
+    float: left;
+    width: 50%;
+    padding-bottom: 24px;
+}
+
+ul{
+    padding: 0;
+}
+
+ul::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+h5{
+    font-size: 20px;
+    padding: 0;
+    margin-top: 0;
+    margin-bottom: 7px;
+}
+
+.section-3{
+    padding-top: 19px;
+    padding-bottom: 100px;
+    background-color: #faf2e3;
+    color: #8f9a53 ;
+}
+
+.section-3 p{
+    width: 703px;
+    margin: auto;
+    font-size: 26px;
+    text-align: center;
+    line-height: 1.4;
+}
+
+.footer {
+    padding-top: 41px;
+    padding-bottom: 40px;
+    margin-bottom: 0;
+    background-color: #a4977b;
+    color: #faf2e3;
+    font-size: 18px;
+}
