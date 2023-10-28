@@ -1,0 +1,429 @@
+
+        body {
+            color: #333;
+            font-family: 'Open Sans', sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        main {
+            margin: 40px;
+        }
+
+        h1 {
+             font-size: 30px;
+             margin-bottom: 40px;
+        }
+
+        .button_container {
+            border: 1px solid #ddd;
+            margin: 0 10px 10px 0;
+            padding: 20px;
+            width: 300px;
+            height: 300px;
+            float: left;
+            overflow: hidden;
+            box-sizing: border-box;
+            text-align: center;
+        }
+
+
+
+        a#btn_spotify {
+            display: inline-block;
+            height: 50px;
+            box-sizing: border-box;
+            border-radius: 25px;
+            margin: auto;
+            margin-top: 100px;
+            padding: 10px 40px 0 40px;
+            background-color: #2ebd59;
+            border: 2px solid #2ebd59;
+            color: #fff;
+            font-size: 20px;
+            font-family: 'Montserrat', sans-serif;
+            font-weight: bold;
+            text-decoration: none;
+            transition: all .5s;
+        }
+
+        a#btn_spotify:hover {
+            background-color: #fff;
+            border: 2px solid #000;
+            color: #000;
+        }
+
+        a#btn_amazon {
+            display: block;
+            width: 100px;
+            height: 100px;
+            box-sizing: border-box;
+            border-radius: 50px;
+            margin: auto;
+            margin-top: 75px;
+            padding-top: 8px;
+            background-color: #232f3e;
+            color: #fff;
+            text-align: center;
+            font-size: 60px;
+            transition: all .2s;
+        }
+
+        a#btn_amazon:hover {
+            background-color: #fc9a18;
+        }
+
+        a#btn_twitter {
+            display: inline-block;
+            height: 40px;
+            box-sizing: border-box;
+            border-radius: 4px;
+            margin: auto;
+            margin-top: 105px;
+            padding: 10px 30px 0 30px;
+            background-color: #56cdf1;
+            color: #fff;
+            font-size: 18px;
+            font-family: 'Arial', sans-serif;
+            font-weight: bold;
+            text-decoration: none;
+        }
+
+        a#btn_twitter:hover {
+
+            /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#2ebfec+0,28a5cb+100 */
+            background: rgb(46,191,236); /* Old browsers */
+            background: -moz-linear-gradient(-45deg,  rgba(46,191,236,1) 0%, rgba(40,165,203,1) 100%); /* FF3.6-15 */
+            background: -webkit-linear-gradient(-45deg,  rgba(46,191,236,1) 0%,rgba(40,165,203,1) 100%); /* Chrome10-25,Safari5.1-6 */
+            background: linear-gradient(135deg,  rgba(46,191,236,1) 0%,rgba(40,165,203,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+            filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2ebfec', endColorstr='#28a5cb',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
+        }
+
+        a#btn_indiegogo {
+            display: inline-block;
+            position: relative;
+            margin:auto;
+            margin-top: 100px;
+            padding: 8px 16px;
+            background-color: #fff;
+            color: #eb1478;
+            font-family: 'Ubuntu', sans-serif;
+            font-size: 30px;
+            font-weight: bold;
+            text-transform: uppercase;
+            text-decoration: none;
+            letter-spacing: -2px;
+            transition: all .2s;
+        }
+
+        a#btn_indiegogo:before {
+            content: "";
+            display: block;
+            width: 0;
+            height: 0;
+            z-index: 1;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            background-color: #eb1478;
+            transition: all .5s;
+        }
+
+        a#btn_indiegogo:hover {
+            color: #fff;
+        }
+
+        a#btn_indiegogo:hover:before {
+            width: 100%;
+            height: 100%;
+            left: 0;
+            top: 0;
+        }
+
+        a#btn_indiegogo span {
+            position: relative;
+            z-index: 10;
+        }
+
+        a#btn_apple {
+            display: inline-block;
+            height: 50px;
+            box-sizing: border-box;
+            font-size: 18px;
+            margin: auto;
+            margin-top: 105px;
+            padding: 15px 30px 0 30px;
+            border-radius: 20px;
+            border-style: solid;
+            border-color: rgba(162, 170, 173, 0.15);
+            font-family: 'Helvetica Neue"', sans-serif;
+            font-weight: bold;
+            text-decoration: none;
+            color: rgba(85,85,85,0.8);
+            transition: 500ms;
+
+        }
+
+        a#btn_apple:hover{
+            -webkit-box-shadow: inset 1px 1px 5px rgba(162, 170, 173, 0.5);
+            -moz-box-shadow:    inset 1px 1px 5px rgba(162, 170, 173, 0.5);
+            box-shadow:         inset 1px 1px 5px rgba(162, 170, 173, 0.5);
+            transition: 500ms;
+
+          
+        }
+
+        a#btn_sardella{
+            font-family: 'Oswald', sans-serif;
+            display: inline-block;
+            height: 100px;
+            box-sizing: border-box;
+            font-size: 30px;
+            margin: auto;
+            margin-top: 105px;
+            text-decoration: none;
+            color: #f04924;
+            transition: 500ms;
+        }
+
+        a#btn_sardella:hover{
+            letter-spacing: 0.1em;
+            color: #064047;
+            transition: 500ms;
+        }
+
+        a#btn_lyft{
+            display: block;
+            width: 100px;
+            height: 100px;
+            box-sizing: border-box;
+            margin: auto;
+            margin-top: 105px;
+            text-decoration: none;
+            color: rgb(255, 0, 191);
+            transition: 1000ms;
+        }
+
+        a#btn_lyft:hover{
+            color: #FFFFFF;
+            text-shadow: 0 0 15px rgb(255, 0, 191);
+            transition: 500ms;
+        }
+
+        a#btn_b img{
+            height: 200px;
+            margin: auto;
+            margin-top: 25px;
+        }
+
+        a#btn_b .b1{
+            display: block;
+        }
+
+        a#btn_b .b2{
+            display: none;
+        }
+
+        a#btn_b:hover .b1{
+            display: none;
+        }
+
+        a#btn_b:hover .b2{
+            display: block;
+        }
+
+        a#btn_mbg{
+            display: inline-block;
+            font-family: 'Cabin', sans-serif;
+            font-size: 18px;
+            box-sizing: border-box;
+            padding: 10px 10px 10px 10px;
+            margin: auto;
+            margin-top: 105px;
+            text-decoration: none;
+            color: #006B36;
+            background: #D9E9E1;
+            transition: 500ms;
+
+        }
+
+        a#btn_mbg:hover{
+            font-size: 20px;
+            padding: 15px 15px 15px 15px;
+            transition: 500ms;
+            box-shadow: #D9E9E1 1px 1px 5px;
+        }
+
+        .tesla{
+            background-color: #000
+        }
+
+        a#btn_tesla{
+            display: inline-block;
+            font-family: 'Montserrat', sans-serif;
+            font-size: 20px;
+            box-sizing: border-box;
+            padding: 15px 90px 15px 90px;
+            margin: auto;
+            margin-top: 105px;
+            text-decoration: none;
+            border: solid white;
+            border-width: 3px;
+            border-radius: 2px;
+            transition: 500ms;
+            color: white;
+        }
+
+        a#btn_tesla:hover{
+            border: solid rgba(255, 255, 255, 0.75);
+            color: rgba(255, 255, 255, 0.75);
+        }
+
+
+        a#btn_nbc img{
+            width: 500px;
+            margin-left: -122px;
+            margin-top: 28px;
+            transition: transform .7s ease-in-out;
+        }
+
+        a#btn_nbc:hover img{
+            transform: rotate(360deg);
+          }
+
+          .button_container {
+            text-align: center;
+          }
+        
+          #btn_fitbit {
+            display: inline-block;
+            border: solid #00B0B9;
+            border-width: 3px;
+            padding: 10px 20px;
+            border-radius: 25px;
+            font-size: 20px;
+            color: white;
+            text-decoration: none;
+            cursor: pointer;
+            animation: bounce 2s infinite;
+            margin-top: 100px;
+          }
+
+          #btn_fitbit img{
+            height: 50px;
+          }
+        
+          @keyframes bounce {
+            0%, 20%, 50%, 80%, 100% {
+              transform: translateY(0);
+            }
+            40% {
+              transform: translateY(-10px);
+            }
+            60% {
+              transform: translateY(-5px);
+            }
+          }
+          
+          
+          
+          #btn_mj {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            background-color: #3e441d;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            font-size: 1.2em;
+            color: #f2f2ef;
+            text-decoration: none;
+            cursor: pointer;
+            transition: background-color 0.5s ease-in-out, transform 0.5s ease-in-out;
+            position: relative;
+            overflow: hidden;
+            font-family: Georgia, serif;
+          }
+        
+          #btn_mj:hover {
+            background-color: #007580;
+            transform: scale(1.05);
+          }
+
+          #btn_mj i{
+            padding-left: 10px;
+          }
+        
+          #btn_mj:hover i {
+            margin-right: 8px;
+            animation: wobble 2s infinite;
+          }
+        
+          @keyframes wobble {
+            0% {
+              transform: translateX(0);
+            }
+            15% {
+              transform: translateX(-5px) rotate(5deg);
+            }
+            30% {
+              transform: translateX(5px) rotate(-5deg);
+            }
+            45% {
+              transform: translateX(-5px) rotate(5deg);
+            }
+            60% {
+              transform: translateX(5px) rotate(-5deg);
+            }
+            75% {
+              transform: translateX(-5px) rotate(5deg);
+            }
+            100% {
+              transform: translateX(0) rotate(0);
+            }
+          }
+
+
+          #btn_ig {
+            display: inline-block;
+            background: linear-gradient(45deg, #ff5733, #ff00b0);
+            padding: 15px 30px;
+            border: none;
+            border-radius: 10px;
+            font-size: 2em;
+            color: white;
+            text-decoration: none;
+            position: relative;
+            perspective: 1000px;
+            transform-style: preserve-3d;
+            transition: transform 0.5s, box-shadow 0.5s, background 0.5s;
+          }
+        
+          #btn_ig span {
+            display: inline-block;
+            transform-origin: center;
+          }
+        
+          #btn_ig:before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(45deg, #ff5733, #ff00b0);
+            transform-origin: 0 0;
+            transform: scale3d(0, 1, 1);
+            transition: transform 0.5s, background 0.5s;
+          }
+        
+          #btn_ig:hover {
+            transform: rotateY(180deg);
+            box-shadow: 0 0 20px rgba(255, 0, 176, 0.7);
+          }
+        
+          #btn_ig:hover:before {
+            transform: scale3d(1, 1, 1);
+            background: linear-gradient(45deg, #ff5733, #ff00b0);
+          }
