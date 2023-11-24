@@ -8,7 +8,7 @@ body {
 .desktop {
     margin-top: 10px;
     margin-bottom: 10px;
-    width: 100%;
+    width: 97%;
     height: 12.5vh;
     display: flex;
     align-items: center;
@@ -33,7 +33,7 @@ body {
 
 .desktop .text-link {
     font-family: 'Pangolin', cursive;
-    font-size: 1.75vw;
+    font-size: 1.7vw;
     height: 100%;
     margin-right: 60px;
     display: flex;
