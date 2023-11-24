@@ -1,0 +1,11 @@
+footer {
+    text-align: left;
+    padding: 10px;
+    bottom: 0;
+    width: 100%;
+    font-family: 'Pangolin', cursive;
+}
+
+footer p {
+    margin: 0;
+}
