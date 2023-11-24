@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Keith Haring</title>
+  <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="styles/nav.css" /> 
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Pangolin&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="desktop">
+      <div class="nav-bar">
+        <a class="img-link" href="index.html"><img src="images/2.png"></a>
+        <a class="text-link" href="early-life.html">
+          <span class="icon"><img src="images/gbm.png"></span>
+          Early Life
+        </a> 
+        <a class="text-link" href="rise-to-fame.html">
+          <span class="icon"><img src="images/rdm.png"></span>
+          Rise to Fame
+        </a> 
+        <a class="text-link" href="pop-up-shop.html">
+          <span class="icon"><img src="images/omm.png"></span>
+          Pop Up Shop
+        </a> 
+        <a class="text-link" href="legacy.html">
+          <span class="icon"><img src="images/phm.png"></span>
+          Legacy
+        </a>
+      </div>
+    </nav>
+
+    <nav class="mobile">
+      <div class="header">
+          <a class="img-link" href="index.html"><img src="images/2.png"></a>
+          <div class="menu-toggle" onclick="toggleMobileMenu()">&#9776;</div>
+      </div>
+      <div class="text-links">
+          <div class="text-link">Early Life</div>
+          <div class="text-link">Rise to Fame</div>
+          <div class="text-link">Pop Up Shop</div>
+          <div class="text-link">Legacy</div>
+      </div>
+  </nav>
+
+  <script>
+    function toggleMobileMenu() {
+        var mobileLinks = document.querySelectorAll('.mobile .text-link');
+
+        mobileLinks.forEach(function(link) {
+            link.classList.toggle('active');
+        });
+    }
+</script>
+    
+  <img src="images/1.png" width="100%"/>
+  <div class="heading-text">
+    <p>
+        <em>Keith Allen Haring</em> was an American Pop Artist whose work emerged from the <em>New York City graffiti subculture</em> of the 1980s.<br>
+        Much of his work includes sexual allusions that became activism by using the images to <em>advocate for safe sex and AIDS awareness</em>.<br>
+        Haring died of <em>AIDS related complications</em> on February 16, 1990
+    </p>
+  </div>
+  <footer>
+    <p>Keith Haring<br>
+    © Interaction Design 2023
+    </p>
+  </footer>
+</body>
+</html>

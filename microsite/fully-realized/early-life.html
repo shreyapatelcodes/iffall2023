@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Keith Haring</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="styles/nav.css" /> 
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Pangolin&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="desktop">
+      <div class="nav-bar">
+        <a class="img-link" href="index.html"><img src="images/2.png"></a>
+        <a class="text-link" id="selected" href="early-life.html">
+          <span class="icon"><img src="images/gbm.png"></span>
+          Early Life
+        </a> 
+        <a class="text-link" href="rise-to-fame.html">
+          <span class="icon"><img src="images/rdm.png"></span>
+          Rise to Fame
+        </a> 
+        <a class="text-link" href="pop-up-shop.html">
+          <span class="icon"><img src="images/omm.png"></span>
+          Pop Up Shop
+        </a> 
+        <a class="text-link" href="legacy.html">
+          <span class="icon"><img src="images/phm.png"></span>
+          Legacy
+        </a>
+      </div>
+    </nav>
+
+    <nav class="mobile">
+      <div class="header">
+          <a class="img-link" href="index.html"><img src="images/2.png"></a>
+          <div class="menu-toggle" onclick="toggleMobileMenu()">&#9776;</div>
+      </div>
+      <div class="text-links">
+          <div class="text-link">Early Life</div>
+          <div class="text-link">Rise to Fame</div>
+          <div class="text-link">Pop Up Shop</div>
+          <div class="text-link">Legacy</div>
+      </div>
+  </nav>
+
+  <script>
+    function toggleMobileMenu() {
+        var mobileLinks = document.querySelectorAll('.mobile .text-link');
+
+        mobileLinks.forEach(function(link) {
+            link.classList.toggle('active');
+        });
+    }
+</script>
+
+  <h2>Early Life</h1>
+
+  <div class="content pink">
+    <img src="images/baby.png" width="25%">
+    <p>Haring was born in <em>Reading, Pennsylvania</em>, on May 4, 1958. He was raised in <em>Kutztown, Pennsylvania</em>, by his mother, Joan Haring, and father, Allen Haring, an engineer and amateur cartoonist. He had three younger sisters, Kay, Karen and Kristen. He became interested in art at a very young age, <em>spending time with his father producing creative drawings.</em></p>
+  </div>
+
+  <div class="content green">
+    <p>His early influences included <em>Walt Disney</em> cartoons, <em>Dr. Seuss</em>, <em>Charles Schulz</em>, and the <em>Looney Tunes</em> characters in The Bugs Bunny Show.</p>
+    <img src="images/collage.png" width="25%">
+  </div>
+
+  <div class="content yellow">
+    <img src="images/grateful-dead.png" width="25%">
+    <p>In his early teenage years, he was involved with the <em>Jesus Movement</em>. He later hitchhiked across the country, selling T-shirts he made featuring the <em>Grateful Dead</em> and <em>anti-Nixon</em> designs. He graduated from Kutztown Area High School in 1976.<br> 
+      He studied commercial art from 1976 to 1978 at <em>Pittsburgh's Ivy School of Professional Art</em>, but eventually lost interest, inspired to focus on his own art after reading <em>The Art Spirit</em> (1923) by Robert Henri.</p>
+  </div>
+
+  <div class="content green">
+    <p>Haring moved to the <em>Lower East Side of New York</em> in 1978 to study painting at the <em>School of Visual Arts</em>. While attending school he studied semiotics with Bill Beckley and experimented with video and performance art.<br>
+      Haring first received public attention with his <em>graffiti art in subways</em>, where he created white chalk drawings on black, unused advertisement backboards in the stations. He considered the subways to be his "<em>laboratory</em>," a place where he could experiment and create his artwork and saw the black advertisement paper as a free space and "<em>the perfect place to draw</em>".</p>
+    <img src="images/chalkboard.png" width="25%">
+  </div>
+
+  <footer>
+    <p>Keith Haring<br>
+      © Interaction Design 2023
+    </p>
+  </footer>
+</body>
+</html>

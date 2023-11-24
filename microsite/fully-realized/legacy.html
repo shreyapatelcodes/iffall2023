@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Keith Haring</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="styles/nav.css" /> 
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Pangolin&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="desktop">
+      <div class="nav-bar">
+        <a class="img-link" href="index.html"><img src="images/2.png"></a>
+        <a class="text-link" href="early-life.html">
+          <span class="icon"><img src="images/gbm.png"></span>
+          Early Life
+        </a> 
+        <a class="text-link" href="rise-to-fame.html">
+          <span class="icon"><img src="images/rdm.png"></span>
+          Rise to Fame
+        </a> 
+        <a class="text-link" href="pop-up-shop.html">
+          <span class="icon"><img src="images/omm.png"></span>
+          Pop Up Shop
+        </a> 
+        <a class="text-link" id="selected" href="legacy.html">
+          <span class="icon"><img src="images/phm.png"></span>
+          Legacy
+        </a>
+      </div>
+    </nav>
+
+    <nav class="mobile">
+      <div class="header">
+          <a class="img-link" href="index.html"><img src="images/2.png"></a>
+          <div class="menu-toggle" onclick="toggleMobileMenu()">&#9776;</div>
+      </div>
+      <div class="text-links">
+          <div class="text-link">Early Life</div>
+          <div class="text-link">Rise to Fame</div>
+          <div class="text-link">Pop Up Shop</div>
+          <div class="text-link">Legacy</div>
+      </div>
+  </nav>
+
+  <script>
+    function toggleMobileMenu() {
+        var mobileLinks = document.querySelectorAll('.mobile .text-link');
+
+        mobileLinks.forEach(function(link) {
+            link.classList.toggle('active');
+        });
+    }
+</script>
+
+      <h2>Legacy</h1>
+
+        <div class="content green">
+            <img src="images/foundation.gif" width="25%">
+            <p>In 1989, Haring established the <em>Keith Haring Foundation</em> to provide funding and imagery to AIDS organizations and children's programs. The foundation's stated goal is to keep his wishes and expand his legacy by providing grants and funding to non-profit organizations that <em>educate disadvantaged youths and inform the public about HIV and AIDS</em>. It also shares his work and contains information about his life. The foundation also <em>supports arts and educational institutions</em> by funding exhibitions, educational programs, and publications</p>
+        </div>
+
+        <div class="content yellow">
+          <p>
+            As a celebration of his life, Madonna declared that the final American date of her 1990 Blond Ambition World Tour would be a <em>benefit concert for Haring's memory</em>. The more than $300,000 the show made from ticket sales was donated to the Foundation for AIDS Research. <em>His art remains on display worldwide</em>. In 1991, Haring was commemorated on the <em>AIDS Memorial Quilt</em> with his famous baby icon on a fabric panel. The baby was embroidered by Haring's aunt, Jeannette Ebling, and Haring's mother, Joan Haring, did much of the sewing.<br> 
+            In 2006, Haring was named by Equality Forum as one of their <em>31 Icons of LGBT History Month</em>. In 2014, Haring was one of the inaugural honorees in the <em>Rainbow Honor Walk</em>. The Rainbow Honor Walk is a walk of fame in San Francisco's Castro neighborhood noting LGBTQ people who have "made significant contributions in their fields." In June 2019, Haring was one of the inaugural fifty American "pioneers, trailblazers, and heroes" inducted on the <em>National LGBTQ Wall of Honor</em> within the Stonewall National Monument in New York City's Stonewall Inn.The SNM is the first U.S. national monument dedicated to LGBTQ rights and history.
+          </p>
+            <img src="images/keith.jpeg" width="25%">
+        </div>
+
+        <div class="content pink">
+            <img src="images/fashion.webp" width="25%">
+            <p>Haring's signature style is frequently seen in various fashion collections. His estate has collaborated with brands such as <em>Adidas</em>, <em>UNIQLO</em>, and <em>Coach</em>.Haring is the subject of a composition, Haring at the Exhibition, written and performed by Italian composer <em>Lorenzo Ferrero</em> in collaboration with DJ Nicola Guiducci. The work combines excerpts from popular chart music of the 1980s with samples of classical music compositions by Lorenzo Ferrero and synthesized sounds. It was featured at <em>"The Keith Haring Show,"</em> an exhibition which took place in 2005 at the Triennale di Milano. In 2008, filmmaker Christina Clausen released the documentary <em>The Universe of Keith Haring</em>. In the film, Haring's legacy is "resurrected through colorful archival footage and remembered by friends and admirers such as artists Kenny Scharf and Yoko Ono, gallery owners Jeffrey Deitch and Tony Shafrazi, and choreographer Bill T. Jones". Madonna used Haring's art as animated backdrops for her 2008/2009 Sticky and Sweet Tour. The animation featured his trademark blocky figures dancing in beat to an updated remix of "Into the Groove". In 2017, his sister Kay Haring wrote a children's book, <em>Keith Haring: The Boy Who Just Kept Drawing</em>, which ranked among the top ten sellers every week for over a year in the Amazon category of Children's Art History.</p>
+        </div>
+
+  
+  <footer>
+    <p>Keith Haring<br>
+    © Interaction Design 2023
+    </p>
+  </footer>
+</body>
+</html>
