@@ -1,11 +1,13 @@
 footer {
     text-align: left;
-    padding: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
     bottom: 0;
     width: 100%;
     font-family: 'Pangolin', cursive;
 }
 
 footer p {
+    padding-left: 10px;
     margin: 0;
 }
