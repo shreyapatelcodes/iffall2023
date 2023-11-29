@@ -1,0 +1,134 @@
+#icon-oud {
+    position: fixed;
+    top: 350px;
+    left: 30%;
+    z-index: 999;
+    transform: rotate(30deg);
+    width: 30%;
+}
+
+
+#icon-bdd {
+    position: fixed;
+    top: 900px; 
+    right: -5%;
+    z-index: 999;
+    transform: rotate(35deg);
+    width: 30%;
+}
+
+
+#icon-rhd {
+    position: fixed;
+    top: 1300px; 
+    left: 5%;
+    z-index: 999;
+    transform: rotate(-25deg);
+    width: 20%;
+}
+
+
+#icon-pmd  {
+    position: fixed;
+    top: 1650px;
+    left: 25%;
+    z-index: 999;
+    transform: rotate(30deg);
+    width: 30%;
+}
+
+
+#icon-yzd {
+    position: fixed;
+    top: 350px; 
+    right: -5%;
+    z-index: 999;
+    transform: rotate(35deg);
+    width: 30%;
+}
+
+
+#icon-gwd {
+    position: fixed;
+    top: 1400px; 
+    left: 0%;
+    z-index: 999;
+    transform: rotate(-25deg);
+    width: 30%;
+}
+
+#icon-yud {
+    position: fixed;
+    top: 150px;
+    left: 10%;
+    z-index: 999;
+    transform: rotate(330deg);
+    width: 35%;
+}
+
+#icon-bbd {
+    position: fixed;
+    top: 1500px;
+    left: 20%;
+    z-index: 999;
+    transform: rotate(324deg);
+}
+
+#icon-bbd img{
+    width: 50%;
+}
+
+#icon-odd {
+    position: fixed;
+    top: 1500px;
+    right: 0%;
+    z-index: 999;
+    transform: rotate(35deg);
+    width: 40%;
+}
+
+#icon-gmd {
+    position: fixed;
+    top: 1100px;
+    left: 0%;
+    z-index: 999;
+    transform: rotate(335deg);
+    width: 35%;
+}
+
+#icon-phd {
+    position: fixed;
+    top: 4750px;
+    right: -25%;
+    z-index: 999;
+    transform: rotate(335deg);
+    width: 40%;
+}
+
+
+#icon-owd {
+    position: fixed;
+    top: 350px;
+    right: -10%;
+    z-index: 999;
+    transform: rotate(314deg);
+    width: 30%;
+}
+
+#icon-bzd {
+    position: fixed;
+    top: 1800px;
+    left: 30%;
+    z-index: 999;
+    transform: rotate(16deg);
+    width: 35%;
+}
+
+#icon-gmd {
+    position: fixed;
+    top: 3000px;
+    right: 10%;
+    z-index: 999;
+    transform: rotate(18deg);
+    width: 30%;
+}

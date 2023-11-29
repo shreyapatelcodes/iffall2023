@@ -8,6 +8,7 @@
   <link rel="stylesheet" type="text/css" href="styles/nav.css" /> 
   <link rel="stylesheet" type="text/css" href="styles/footer.css" /> 
   <link rel="stylesheet" type="text/css" href="styles/content.css" /> 
+  <link rel="stylesheet" type="text/css" href="styles/icons.css" /> 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Pangolin&display=swap" rel="stylesheet">
@@ -63,20 +64,37 @@
     <h2>Pop Up Shop</h1>
 
       <div class="content blue">
+        <div id="icon-owd"><img src="images/icons/owd.png"></div>
           <img src="images/pop-up-shop.png" >
           <p>In April 1986, Pop Shop opened in <em>Soho</em>, selling shirts, posters, and other items showing Haring's work. This made Haring's work <em>readily accessible to purchase at reasonable prices</em>. Having achieved what he wanted, which was "getting the work out to the public at large," Haring completely <em>stopped drawing in the subways</em>.  He also stopped because people were taking the subway drawings and selling them.</p>
       </div>
 
-      <div class="content red">
+      <div class="content green">
+        <div id="icon-bzd"><img src="images/icons/bzd.png"></div>
           <p>Some criticized Haring for commercializing his work. Asked about this, Haring said, "I could earn more money if I just painted a few things and jacked up the price. <em>My shop is an extension of what I was doing in the subway stations, breaking down the barriers between high and low art.</em>" The Pop Shop remained open after Haring's death till 2005; profits went to the Keith Haring Foundation.</p>
           <img src="images/pop-up-shop2.png" >
       </div>
 
       <div class="content orange">
+        <div id="icon-gmd"><img src="images/icons/gmd.png"></div>
           <img src="images/pop-up-shop3.png" >
           <p>The Pop Shop was far from Haring's only effort to make his work widely accessible. Throughout his career, <em>Haring made art in subways and on billboards</em>. His attempts to make his work relatable can also be seen in his figures' <em>lack of discernable ages, races, or identities</em>. By the arrival of Pop Shop, his work began reflecting more socio-political themes, such as anti-Apartheid, AID awareness, and the crack cocaine epidemic.</p>
       </div>
+
+      <script>
+        window.addEventListener('scroll', function () {
+            var scrollPosition = window.scrollY;
+            var iconOwd = document.getElementById('icon-owd');
+            var iconBzd = document.getElementById('icon-bzd');
+            var iconGmd = document.getElementById('icon-gmd');
+            iconOwd.style.top = 350 + scrollPosition * -1.5 + 'px';
+            iconBzd.style.top = 1800 + scrollPosition * -3 + 'px';
+            iconGmd.style.top = 1500 + scrollPosition * -1.25 + 'px';
+        });
+    </script>
+
   </div>
+
   <div class="m">
     <h2>Pop Up Shop</h1>
       <img src="images/pop-up-shop.png" >
