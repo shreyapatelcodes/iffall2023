@@ -3,9 +3,12 @@ body {
     padding: 0;
 }
 
+
 .hero-container {
     position: relative;
+    overflow: hidden;
     width: 100%;
+    margin: 0 auto; /* Center the gallery */
 }
 
 .hero-container img {
