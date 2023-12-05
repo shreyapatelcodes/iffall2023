@@ -1,0 +1,192 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+
+.pink {
+    position: relative;
+    border-color: #CA007A;
+}
+
+.green {
+    position: relative;
+    border-color: #00DE47;
+}
+
+.yellow {
+    position: relative;
+    border-color: #EEC000;
+}
+
+.blue {
+    position: relative;
+    border-color: #00B0EB;
+}
+
+.orange {
+    position: relative;
+    border-color: #FF6B07;
+}
+
+.red {
+    position: relative;
+    border-color: #FF1526;
+}
+
+em {
+    font-style: normal;
+}
+
+.pink em{
+    color: #CA007A;
+}
+
+.green em{
+    color: #00DE47;
+}
+
+.yellow em{
+    color: #EEC000;
+}
+
+.blue em{
+    color: #00B0EB;
+}
+
+.orange em{
+    color: #FF6B07;
+}
+
+.red em{
+    color: #FF1526;
+}
+
+.d {
+    display: block; 
+}
+
+.m {
+    display: none;
+}
+
+.d h2 {
+    font-family: 'Pangolin', cursive;
+    font-size: 4.5vw;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.d .content {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-width: 10px;
+    border-radius: 10px;
+    border-style: solid;
+    margin-left: 22px;
+    margin-right: 22px;
+    margin-top: 20px;
+    margin-bottom: 2px;
+    padding: 20px;
+}
+
+.d .content img {
+    width: 30%;
+    margin: 10px; 
+    border-radius: 10px;
+}
+
+.d .content p {
+    max-width: 60%; 
+    font-family: 'Roboto', sans-serif;
+    font-size: 3vh;
+    margin: 20px; 
+    color: black;
+}
+
+.m h2{
+    font-family: 'Pangolin', cursive;
+    font-size: 8vw;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.m img{
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+
+.m p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 3vh;
+    margin: 20px; 
+    color: black;
+}
+
+.m .content{
+    border-width: 25px;
+    border-style: solid;
+    margin-top: -5px;
+    margin-bottom: -5px;
+}
+
+#gd-mobile{
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+#collage {
+    width: 45%;
+    margin: 10px; 
+}
+
+#collage-text {
+    width: 40%;
+    margin: 0px; 
+    padding: 0px;
+}
+
+.d #fence-container {
+    display: block; /* Change from flex to block */
+    text-align: center; /* Center the content */
+    border-width: 10px;
+    border-radius: 10px;
+    border-style: solid;
+    margin-left: 22px;
+    margin-right: 22px;
+    margin-top: 20px;
+    margin-bottom: 2px;
+    padding: 20px;
+}
+
+.d #fence {
+    width: 75%;
+    border-radius: 10px;
+}
+
+.d #fence-text {
+    max-width: 100%;
+    font-family: 'Roboto', sans-serif;
+    font-size: 3vh;
+    margin: 30px;
+    color: black;
+    text-align: left; /* Center the content */
+
+}
+
+
+
+@media (max-width: 1100px) {
+    .d {
+        display: none;
+    }
+
+    .m {
+        display: block; 
+    }
+
+}
+
